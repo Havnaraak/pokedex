@@ -13,6 +13,29 @@ body {
     height: 100vh;
 }
 
+.content h1 {
+    margin: 0;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: 0.25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #FFF;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
@@ -20,8 +43,4 @@ body {
         margin: 1rem auto;
         border-radius: 1rem;
     }
-}
-
-.content h1 {
-    margin: 0;
 }
